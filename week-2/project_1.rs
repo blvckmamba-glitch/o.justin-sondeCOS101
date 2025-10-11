@@ -4,7 +4,7 @@ let principal:f64 = 520000000.00;  // initial amount
  let times: f64 = 1.0;
     let years: f64 = 5.0;       // for 5 years
 
-     let amount = principal * (1.0 + rate / times).powf(times * years);
+     let amount = principal * (1.0 + rate / 100.00).powf(times * years);
     let compound_interest = amount - principal;
 
  println!("Final amount after {} years = {:.2}", years, amount);
