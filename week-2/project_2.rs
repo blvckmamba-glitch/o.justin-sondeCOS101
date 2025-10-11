@@ -5,11 +5,11 @@ fn main() {
     let quantity_length = quantity.len();
     let mut sum = 0.0;
     let mut total_quantity = 0.0;
-    for i in 1..quantity_length{
+    for i in 0..quantity_length{
         sum = sum + (amount[i] * quantity[i]);
     };
 
-    for i in 1..quantity_length{
+    for i in 0..quantity_length{
         total_quantity = total_quantity + quantity[i];
     };
 
