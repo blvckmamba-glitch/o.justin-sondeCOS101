@@ -31,4 +31,4 @@ fn read_input(name: &str) -> f64 {
             Err(_) => println!("Invalid input. Please enter a number."),
         }
     }
-}
+} 
