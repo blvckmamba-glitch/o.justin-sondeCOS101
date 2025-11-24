@@ -1,0 +1,3 @@
+ID: 1, Name: John Doe, Age: 20, Department: Computer Science
+ID: 2, Name: Jane Smith, Age: 22, Department: Business Administration
+ID: 3, Name: Michael Johnson, Age: 19, Department: Economics
