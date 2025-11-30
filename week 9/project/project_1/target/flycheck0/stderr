@@ -1,0 +1,58 @@
+   0.050319600s  INFO prepare_target{force=false package_id=project_1 v0.1.0 (C:\Users\HP\OneDrive\Documents\o.justin-sondeCOS101\week 9\project\project_1) target="project_1"}: cargo::core::compiler::fingerprint: fingerprint error for project_1 v0.1.0 (C:\Users\HP\OneDrive\Documents\o.justin-sondeCOS101\week 9\project\project_1)/Check { test: false }/TargetInner { name: "project_1", doc: true, ..: with_path("C:\\Users\\HP\\OneDrive\\Documents\\o.justin-sondeCOS101\\week 9\\project\\project_1\\src\\main.rs", Edition2024) }
+   0.050431300s  INFO prepare_target{force=false package_id=project_1 v0.1.0 (C:\Users\HP\OneDrive\Documents\o.justin-sondeCOS101\week 9\project\project_1) target="project_1"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\OneDrive\Documents\o.justin-sondeCOS101\week 9\project\project_1\target\debug\.fingerprint\project_1-901496cfac869d17\bin-project_1`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.088954400s  INFO prepare_target{force=false package_id=project_1 v0.1.0 (C:\Users\HP\OneDrive\Documents\o.justin-sondeCOS101\week 9\project\project_1) target="project_1"}: cargo::core::compiler::fingerprint: fingerprint error for project_1 v0.1.0 (C:\Users\HP\OneDrive\Documents\o.justin-sondeCOS101\week 9\project\project_1)/Check { test: true }/TargetInner { name: "project_1", doc: true, ..: with_path("C:\\Users\\HP\\OneDrive\\Documents\\o.justin-sondeCOS101\\week 9\\project\\project_1\\src\\main.rs", Edition2024) }
+   0.089029500s  INFO prepare_target{force=false package_id=project_1 v0.1.0 (C:\Users\HP\OneDrive\Documents\o.justin-sondeCOS101\week 9\project\project_1) target="project_1"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\HP\OneDrive\Documents\o.justin-sondeCOS101\week 9\project\project_1\target\debug\.fingerprint\project_1-277ce6899c1d458f\test-bin-project_1`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking project_1 v0.1.0 (C:\Users\HP\OneDrive\Documents\o.justin-sondeCOS101\week 9\project\project_1)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.71s

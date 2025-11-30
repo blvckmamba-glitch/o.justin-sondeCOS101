@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../R-TT/html"
+		},
+		{
+			"path": "../../../../../R-TT/code"
+		},
+		{
+			"path": "../../../../../R-TT/website"
+		}
+	],
+	"settings": {
+		"python-envs.defaultEnvManager": "ms-python.python:system",
+		"liveServer.settings.multiRootWorkspaceName": "website",
+		"liveServer.settings.port": 5501
+	}
+}

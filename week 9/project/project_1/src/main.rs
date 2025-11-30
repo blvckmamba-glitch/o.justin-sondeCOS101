@@ -26,7 +26,8 @@ fn main() {
     let mut file = File::create("nigerian_breweries.txt")
         .expect("Unable to create file");
     file.write_all(content.as_bytes())
-        .expect("Unable to write to file");
+        .expect("Unable to write file");
 
     println!("Drink categories saved to nigerian_breweries.txt");
+    
 }

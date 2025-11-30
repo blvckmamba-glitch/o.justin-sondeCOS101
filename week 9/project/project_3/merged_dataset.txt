@@ -1,0 +1,7 @@
+S/N   | Commissioner                   | Zone            | Ministry            
+--------------------------------------------------------------------------------
+1     | Aigbogun Alamba Daudu          | South West      | Internal Affairs    
+2     | Murtala Afeez Bendu            | North East      | Justice             
+3     | Okorocha Calistus Ogbona       | South South     | Defense             
+4     | Adewale Jimoh Akanbi           | South West      | Power & Steel       
+5     | Osazuwa Faith Etieye           | South East      | Petroleum           
