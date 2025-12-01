@@ -1,0 +1,1 @@
+C:\Users\HP\OneDrive\Documents\o.justin-sondeCOS101\WEEK\ 10\pracctice\practice_5\target\debug\practice_5.exe: C:\Users\HP\OneDrive\Documents\o.justin-sondeCOS101\WEEK\ 10\pracctice\practice_5\src\main.rs
